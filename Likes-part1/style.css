@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#container {
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+}
+
+#box {
+    border: 2px solid black;
+    width: 400px;
+    height: 150px;
+    margin: 50px;
+}
+
+#header, #text-container {
+    width: inherit;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+h2, #text {
+    margin-left: 15px;
+}
+
+#number {
+    margin-left: 100px;
+}
+
+#likes {
+    margin-left: 5px;
+}
+
+button {
+    margin-left: 25px;
+    padding: 5px;
+    width: 60px;
+    background-color: gold;
+    box-shadow: 2px 2px black;
+    border: 2px solid black;
+}

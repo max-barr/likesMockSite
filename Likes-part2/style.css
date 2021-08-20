@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#header {
+    width: 700px;
+    height: 75px;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#network {
+    color: white;
+    margin-left: 20px;
+}
+
+#container {
+    margin: auto;
+    width: 700px;
+    height: 700px;
+}
+
+#nav {
+    width: 700px;
+    height: 45px;
+    text-align: center;
+}
+
+#avatar {
+    height: 655px;
+    width: 225px;
+    display: inline-block;
+}
+
+#user {
+    width: 220px;
+    height: 300px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#user img {
+    height: 100px;
+    margin: 25px 55px;
+}
+
+#user h2 {
+    margin: 30px 0 0 0;
+}
+
+#feed-box {
+    width: 465px;
+    height: 650px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.friend {
+    width: 450px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 0 0 15px 15px;
+}
+
+.name-container, .text-container {
+    width: inherit;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.name-container h2, .text-container p {
+    margin-left: 20px;
+}
+
+#likes1 {
+    margin-left: 150px;
+}
+
+#likes2 {
+    margin-left: 110px;
+}
+
+#likes3 {
+    margin-left: 160px;
+}
+
+#button1, #button2, #button3 {
+    background-color: gold;
+    width: 50px;
+    height: 30px;
+    box-shadow: 2px 2px black;
+    border: 1px solid black;
+}
+
+#button1 {
+    margin-left: 50px;
+}
+
+#button2 {
+    margin-left: 40px;
+}
+
+#button3 {
+    margin-left: 45px;
+}
